@@ -59,7 +59,12 @@ public class Maze {
 			}
 
 		});
-		
+		buttonPanel.add(newMazeButton);
+		contentPane.add(buttonPanel, BorderLayout.SOUTH);
+
+		// Display the window.
+		f.setVisible(true);
+
 	}
 
 }
